@@ -1,0 +1,49 @@
+/***** HEADER *****/
+nav li a {
+	font-size: 0.9em;
+}
+
+/***** PORTFÓLIO *****/
+#portfolio {
+	margin-top: 76px;
+}
+
+#portfolio .badge-pill:hover {
+	border: 1px solid #fff;
+}
+
+#projeto h5 span {
+	font-size: 0.7em;
+}
+
+#portfolio .badge-project {
+	padding: 7px;
+	background-color: #2a2d31;
+}
+
+#projeto {
+	height: 225px;
+  border: 1px solid #2a2d31 !important;
+}
+
+#projeto img {
+	width: 225px;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+#portfolio h3 {
+	font-size: 1.3em;
+}
+
+#portfolio p {
+	font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+	/***** PORTFÓLIO *****/
+	#projeto img {
+		display: none;
+	}
+}

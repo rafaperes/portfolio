@@ -1,0 +1,61 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+  
+a, a:hover {
+    text-decoration: none;
+}
+  
+h2 {
+    text-transform: uppercase;
+} 
+
+.nav-link {
+    font-size: 1em;
+}
+  
+.bg-dark-light {
+    background-color: #2a2d31 !important;
+    color: white;
+}
+
+.bg-dark, .btn-dark, .badge-dark {
+    background-color: #212529 !important;
+    color: #fff !important;
+    border-color: #212529 !important;
+}
+  
+.bg-success, .btn-success, .badge-success {
+    background-color: #00c399 !important;
+    color: #fff !important;
+    border-color: #00c399 !important;
+}
+  
+.text-success {
+    color: #18a94b !important;
+}
+
+#loading {
+    display: none;
+}
+
+/***** FOOTER *****/
+footer {
+    width: 100%;
+    margin-bottom: 0px !important;
+    
+}
+  
+footer hr {
+    background-color: #2a2d31;
+}
+
+/***** TABLE *****/
+.table .fab, .table .fas {
+    font-size: 1.2em;
+}
