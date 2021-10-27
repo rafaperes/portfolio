@@ -55,6 +55,10 @@ footer hr {
     background-color: #2a2d31;
 }
 
+footer img {
+    width: 140px;
+}
+
 /***** TABLE *****/
 .table .fab, .table .fas {
     font-size: 1.2em;
